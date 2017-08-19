@@ -6,7 +6,8 @@
 #define DCRAFT_SHIBANATIVE_H
 
 
-#include "../window/INativeWindow.h"
+#include <string>
+#include "../gui/window/INativeWindow.h"
 #include "../common/ShibaTypes.h"
 #include "../utils/Interface.h"
 
@@ -15,7 +16,7 @@ namespace shiba {
 
         using namespace shiba::window;
 
-        class INativeService: public Interface {
+        class INativeService : public Interface {
 
         };
 
@@ -49,6 +50,10 @@ namespace shiba {
             virtual bool addListener(INativeWindowListener *listener) = 0;
 
             virtual bool removeListener(INativeWindowListener *listener) = 0;
+
+            virtual void attachGL() = 0;
+            virtual void detachGL() = 0;
+            virtual void swapSurface() = 0;
         };
 
         class INativeWindowService : public INativeService, Interface {
@@ -78,12 +83,70 @@ namespace shiba {
             virtual bool removeListener(INativeEventListener *listener) = 0;
         };
 
+        enum LogLevel {
+            error,
+            warning,
+            info,
+            debug,
+            verbose
+        };
+
+        class ILogService : public Interface {
+        public:
+            virtual void v(const std::string &tag, const std::string &msg) {
+                log(LogLevel::verbose, tag, msg);
+            }
+
+            virtual void d(const std::string &tag, const std::string &msg) {
+                log(LogLevel::debug, tag, msg);
+            }
+
+            virtual void i(const std::string &tag, const std::string &msg) {
+                log(LogLevel::info, tag, msg);
+            }
+
+            virtual void w(const std::string &tag, const std::string &msg) {
+                log(LogLevel::warning, tag, msg);
+            }
+
+            virtual void e(const std::string &tag, const std::string &msg) {
+                log(LogLevel::error, tag, msg);
+            }
+
+            virtual void log(LogLevel level, const std::string &tag, const std::string &msg) {
+                switch (level) {
+                    case error:
+                        printf("[e]");
+                        break;
+                    case warning:
+                        printf("[w]");
+                        break;
+                    case info:
+                        printf("[i]");
+                        break;
+                    case debug:
+                        printf("[d]");
+                        break;
+                    case verbose:
+                        printf("[v]");
+                        break;
+                    default:
+                        printf("");
+                }
+                printf("%s: %s\n", tag.c_str(), msg.c_str());
+            }
+        };
+
+
         class INativeController {
         public:
             virtual INativeWindowService *getWindowService() = 0;
 
             virtual INativeEventService *getEventService() = 0;
+
+            virtual ILogService *getLogService() = 0;
         };
+
     }
 }
 

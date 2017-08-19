@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.7)
 project(Shiba)
 
 set(CMAKE_CXX_STANDARD 14)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -stdlib=libc++")
 
 
 File(GLOB SOURCE_FILES
@@ -10,16 +10,16 @@ File(GLOB SOURCE_FILES
         source/*.h
         source/framework/*.cpp
         source/common/*.cpp
-        source/graphics/*.cpp
-        source/graphics/gl/*.cpp
+        source/gui/graphics/*.cpp
+        source/gui/graphics/gl/*.cpp
         source/native/*.cpp
         source/native/*.h
         source/native/sfml/*.cpp
         source/native/sfml/service/*.cpp
         source/utils/*.cpp
         source/utils/*.h
-        source/window/*.cpp
-        source/window/*.h
+        source/gui/window/*.cpp
+        source/gui/window/*.h
         source/common/*.h
         )
 
@@ -61,4 +61,4 @@ if (THREADS_FOUND)
 endif ()
 
 
-add_executable(Shiba ${SOURCE_FILES} source/utils/List.h)
+add_executable(Shiba ${SOURCE_FILES} source/utils/List.h source/native/sfml/service/SfmlLogService.cpp source/native/sfml/service/SfmlLogService.h)

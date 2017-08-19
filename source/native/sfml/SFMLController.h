@@ -6,7 +6,7 @@
 #define DCRAFT_OSXSFMLCONTROLLER_H
 
 
-#include "../../window/INativeWindow.h"
+#include "../../gui/window/INativeWindow.h"
 #include "../ShibaNative.h"
 
 

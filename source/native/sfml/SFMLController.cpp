@@ -3,9 +3,10 @@
 //
 
 #include <SFML/Window.hpp>
-#include <jmorecfg.h>
+#include <iostream>
 #include "SFMLController.h"
 #include "../../utils/List.h"
+#include "service/SfmlLogService.h"
 
 namespace shiba {
     namespace native {
@@ -23,7 +24,7 @@ namespace shiba {
                     settings.antialiasingLevel = 4;
                     settings.majorVersion = 3;
                     settings.minorVersion = 0;
-                    sfWindow = new sf::Window(sf::VideoMode(800, 600), "Shiba", sf::Style::Default, settings);
+                    sfWindow = new sf::Window(sf::VideoMode(1920, 1280), "Shiba", sf::Style::Default, settings);
                     sfWindow->setVisible(false);
                 }
 
@@ -68,6 +69,18 @@ namespace shiba {
 
                 bool removeListener(INativeWindowListener *listener) override {
                     return listeners.remove(listener);
+                }
+
+                void attachGL() override {
+                    sfWindow->setActive(true);
+                }
+
+                void detachGL() override {
+                    sfWindow->setActive(false);
+                }
+
+                void swapSurface() override {
+                    sfWindow->display();
                 }
 
             protected:
@@ -130,46 +143,45 @@ namespace shiba {
                     delete sfmlWindow;
                 }
 
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wmissing-noreturn"
-
                 void eventLooping() {
 
                     Event event;
+                    sf::Clock clock;
                     while (running) {
+                        sf::Time start = clock.getElapsedTime();
+//                        logService.d(TAG, "Main loop start " + std::to_string(start.asMilliseconds()));
+                        pollAndHandleEvent(event);
+                        sf::Time elapse = (clock.getElapsedTime() - start);
+//                        logService.d(TAG, "elapse " + std::to_string(elapse.asMilliseconds()));
 
-                        bool destroy = false;
-                        for (int i = 0; i < windows.size(); ++i) {
-                            SFMLWindow *&window = windows[i];
-                            if(window->pollEvent(event)) {
-                                bool processed = window->handleEvent(event);
-                                if (event.type == Event::EventType::Closed) {
-                                    if (window == mainWindow) {
-                                        destroy = true;
-                                        break;
-                                    }
-                                }
-                            }
-                        }
-
-                        if (destroy) {
-                            for (int i = 0; i < windows.size(); ++i) {
-                                windows[i]->close();
-                                destroyNativeWindow(windows[i]);
-                            }
-                            return;
+                        if (elapse.asMicroseconds() < 16667) {
+                            sf::sleep(sf::microseconds(16667 - elapse.asMicroseconds()));
                         }
                     }
                 }
 
-#pragma clang diagnostic pop
+                void pollAndHandleEvent(Event &event) {
+                    bool destroy = false;
+                    for (int i = 0; i < windows.size(); ++i) {
+                        SFMLWindow *&window = windows[i];
+                        if (window->pollEvent(event)) {
+                            bool processed = window->handleEvent(event);
+                            if (event.type == Event::Closed) {
+                                if (window == mainWindow) {
+                                    destroy = true;
+                                    break;
+                                }
+                            }
+                        }
+                    }
 
-                void DispatchEvent(const Event &event) const {
-
-                    if (event.type == Event::Closed) {
-
-                    } else {
-
+                    if (destroy) {
+                        running = false;
+                        for (int i = 0; i < windows.size(); ++i) {
+                            windows[i]->close();
+                            destroyNativeWindow(windows[i]);
+                        }
+                        return;
                     }
                 }
 
@@ -187,16 +199,24 @@ namespace shiba {
                     return &eventService;
                 }
 
+                ILogService *getLogService() override {
+                    return &logService;
+                }
+
                 ~SFMLController() override {
                 }
 
             private:
                 SFMLWindow *mainWindow = nullptr;
                 List<SFMLWindow *> windows;
+                SfmlLogService logService;
+                static std::string TAG;
             protected:
                 SfmlEventService eventService;
                 bool running = true;
             };
+
+            std::string SFMLController::TAG = "SfmlController";
 
             INativeController *createSFMLController() {
                 return new SFMLController();

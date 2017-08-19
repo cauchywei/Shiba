@@ -3,7 +3,7 @@
 //
 
 #include "launcher.h"
-#include "window/GuiWindow.h"
+#include "gui/window/GuiWindow.h"
 #include "framework/GLWindow.h"
 #include "Application.h"
 

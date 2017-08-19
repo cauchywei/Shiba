@@ -5,10 +5,10 @@
 #ifndef DCRAFT_APPLICATION_H
 #define DCRAFT_APPLICATION_H
 
-#include "window/GuiWindow.h"
+#include "gui/window/GuiWindow.h"
 #include "native/ShibaNative.h"
 #include "utils/List.h"
-#include "window/WindowEvent.h"
+#include "gui/window/WindowEvent.h"
 
 extern void GameGUIMain();
 

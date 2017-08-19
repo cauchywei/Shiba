@@ -3,7 +3,7 @@
 //
 
 #include "GuiWindow.h"
-#include "../Application.h"
+#include "../../Application.h"
 
 namespace shiba {
 
@@ -22,6 +22,21 @@ namespace shiba {
         INativeWindow *GuiWindow::getNativeWindow() const {
             return nativeWindow;
         }
+
+        void GuiWindow::attachGL() {
+            getNativeWindow()->attachGL();
+        }
+
+        void GuiWindow::detachGL() {
+            getNativeWindow()->detachGL();
+
+        }
+
+        void GuiWindow::swapSurface() {
+            getNativeWindow()->swapSurface();
+        }
+
+
     }
 
 

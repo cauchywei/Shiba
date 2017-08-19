@@ -6,7 +6,7 @@
 #define DCRAFT_GAMEWINDOW_H
 
 #include "INativeWindow.h"
-#include "../native/ShibaNative.h"
+#include "../../native/ShibaNative.h"
 
 namespace shiba {
 
@@ -14,14 +14,19 @@ namespace shiba {
 
         using namespace shiba::native;
 
-        class GuiWindow {
+        class GuiWindow:public Interface {
         public:
             GuiWindow();
 
             void setNativeWindow(INativeWindow *pWindow);
 
-
             INativeWindow *getNativeWindow() const;
+
+            void attachGL();
+
+            void detachGL();
+
+            void swapSurface();
 
         private:
             INativeWindow *nativeWindow = nullptr;
@@ -29,6 +34,7 @@ namespace shiba {
 
 
         class Launcher : public GuiWindow {
+        public:
 
         };
 
