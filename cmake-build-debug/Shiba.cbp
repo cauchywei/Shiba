@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Shiba"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Shiba">
+				<Option output="/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug/Shiba" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug/Makefile&quot;  VERBOSE=1 Shiba"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Shiba/fast">
+				<Option output="/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug/Shiba" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug/Makefile&quot;  VERBOSE=1 Shiba/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/source/Application.cpp">
+			<Option target="Shiba"/>
+		</Unit>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/source/Application.h">
+			<Option target="Shiba"/>
+		</Unit>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/source/Color.h">
+			<Option target="Shiba"/>
+		</Unit>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/source/SFMLMain.cpp">
+			<Option target="Shiba"/>
+		</Unit>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/source/SFMLMain.h">
+			<Option target="Shiba"/>
+		</Unit>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/source/common/ShibaTypes.h">
+			<Option target="Shiba"/>
+		</Unit>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/source/framework/GLWindow.cpp">
+			<Option target="Shiba"/>
+		</Unit>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/source/framework/GLWindow.h">
+			<Option target="Shiba"/>
+		</Unit>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/source/graphics/gl/GLGraphicsRenderer.cpp">
+			<Option target="Shiba"/>
+		</Unit>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/source/graphics/gl/GLGraphicsRenderer.h">
+			<Option target="Shiba"/>
+		</Unit>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/source/launcher.cpp">
+			<Option target="Shiba"/>
+		</Unit>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/source/launcher.h">
+			<Option target="Shiba"/>
+		</Unit>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/source/main.cpp">
+			<Option target="Shiba"/>
+		</Unit>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/source/native/ShibaNative.h">
+			<Option target="Shiba"/>
+		</Unit>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/source/native/sfml/SFMLApplication.cpp">
+			<Option target="Shiba"/>
+		</Unit>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/source/native/sfml/SFMLApplication.h">
+			<Option target="Shiba"/>
+		</Unit>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/source/native/sfml/SFMLController.cpp">
+			<Option target="Shiba"/>
+		</Unit>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/source/native/sfml/SFMLController.h">
+			<Option target="Shiba"/>
+		</Unit>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/source/native/sfml/service/SfmlEventService.cpp">
+			<Option target="Shiba"/>
+		</Unit>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/source/native/sfml/service/SfmlEventService.h">
+			<Option target="Shiba"/>
+		</Unit>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/source/utils/Interface.h">
+			<Option target="Shiba"/>
+		</Unit>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/source/utils/List.h">
+			<Option target="Shiba"/>
+		</Unit>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/source/utils/Singleton.h">
+			<Option target="Shiba"/>
+		</Unit>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/source/window/GuiWindow.cpp">
+			<Option target="Shiba"/>
+		</Unit>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/source/window/GuiWindow.h">
+			<Option target="Shiba"/>
+		</Unit>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/source/window/INativeWindow.h">
+			<Option target="Shiba"/>
+		</Unit>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/source/window/WindowEvent.h">
+			<Option target="Shiba"/>
+		</Unit>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/cauchywei/Program/cpp/Shiba/cmake_modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
