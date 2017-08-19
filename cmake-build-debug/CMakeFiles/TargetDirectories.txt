@@ -1,3 +1,0 @@
-/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/cauchywei/Program/cpp/Shiba/cmake-build-debug/CMakeFiles/Shiba.dir
