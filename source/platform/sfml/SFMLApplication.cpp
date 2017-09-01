@@ -10,7 +10,7 @@
 using namespace shiba;
 
 namespace shiba {
-    namespace native {
+    namespace platform {
         namespace sfml {
 
 
@@ -18,7 +18,7 @@ namespace shiba {
     }
 }
 
-using namespace shiba::native::sfml;
+using namespace shiba::platform::sfml;
 
 int SFMLApplicationMain() {
     auto controller = createSFMLController();

@@ -6,8 +6,9 @@
 #define SHIBA_SHIBATYPE_H
 
 #include "../utils/Interface.h"
+#include <cmath>
 #define sint int
-
+#define modelf float
 
 namespace shiba {
 
@@ -42,8 +43,6 @@ namespace shiba {
                 return !(rhs == *this);
             }
         };
-
-
     }
 }
 

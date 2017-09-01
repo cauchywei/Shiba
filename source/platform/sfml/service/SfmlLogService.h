@@ -8,7 +8,7 @@
 #include "../../ShibaNative.h"
 
 namespace shiba {
-    namespace native {
+    namespace platform {
         namespace sfml {
             class SfmlLogService : public ILogService {
 

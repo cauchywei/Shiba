@@ -9,7 +9,7 @@
 #include "service/SfmlLogService.h"
 
 namespace shiba {
-    namespace native {
+    namespace platform {
         namespace sfml {
 
             using namespace sf;
@@ -56,6 +56,7 @@ namespace shiba {
                     if (event.type == Event::EventType::Closed) {
 
                     }
+                    return false;
                 }
 
                 bool addListener(INativeWindowListener *listener) override {
@@ -126,7 +127,7 @@ namespace shiba {
                 List<INativeEventListener *> listeners;
             };
 
-            class SFMLController : public INativeController, public INativeWindowService, public Interface {
+            class SFMLController : public INativeController, public INativeWindowService {
             public:
 
                 INativeWindow *createNativeWindow() override {

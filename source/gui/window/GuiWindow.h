@@ -6,13 +6,13 @@
 #define DCRAFT_GAMEWINDOW_H
 
 #include "INativeWindow.h"
-#include "../../native/ShibaNative.h"
+#include "../../platform/ShibaNative.h"
 
 namespace shiba {
 
     namespace window {
 
-        using namespace shiba::native;
+        using namespace shiba::platform;
 
         class GuiWindow:public Interface {
         public:

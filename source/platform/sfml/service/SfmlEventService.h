@@ -9,7 +9,7 @@
 #include "../../../utils/List.h"
 
 namespace shiba {
-    namespace native {
+    namespace platform {
         namespace sfml {
 
 

@@ -8,7 +8,7 @@
 extern int setupSFMLRenderer();
 
 namespace shiba {
-    namespace native {
+    namespace platform {
         namespace sfml {
             extern int _sfml_main(int argc, char **argv);
         }

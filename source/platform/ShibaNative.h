@@ -12,7 +12,7 @@
 #include "../utils/Interface.h"
 
 namespace shiba {
-    namespace native {
+    namespace platform {
 
         using namespace shiba::window;
 
@@ -35,7 +35,7 @@ namespace shiba {
             virtual void onKeyUp() = 0;
         };
 
-        class INativeWindow : public shiba::Interface {
+        class INativeWindow : public Interface {
         public:
             virtual bool isOpen() = 0;
 
@@ -52,7 +52,9 @@ namespace shiba {
             virtual bool removeListener(INativeWindowListener *listener) = 0;
 
             virtual void attachGL() = 0;
+
             virtual void detachGL() = 0;
+
             virtual void swapSurface() = 0;
         };
 
@@ -138,7 +140,7 @@ namespace shiba {
         };
 
 
-        class INativeController {
+        class INativeController : public Interface {
         public:
             virtual INativeWindowService *getWindowService() = 0;
 

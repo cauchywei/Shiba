@@ -5,7 +5,7 @@
 #include "SfmlEventService.h"
 
 namespace shiba {
-    namespace native {
+    namespace platform {
         namespace sfml {
 
             bool SfmlEventService::addListener(INativeEventListener *listener) {

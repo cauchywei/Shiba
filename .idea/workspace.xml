@@ -12,23 +12,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fb7f7d9-db55-44a0-8af6-dcf7d5cba114" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/native/sfml/service/SfmlLogService.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/native/sfml/service/SfmlLogService.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/graphics/gl/GLGraphicsRenderer.cpp" afterPath="$PROJECT_DIR$/source/gui/graphics/gl/GLGraphicsRenderer.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/graphics/gl/GLGraphicsRenderer.h" afterPath="$PROJECT_DIR$/source/gui/graphics/gl/GLGraphicsRenderer.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/window/GuiWindow.cpp" afterPath="$PROJECT_DIR$/source/gui/window/GuiWindow.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/window/GuiWindow.h" afterPath="$PROJECT_DIR$/source/gui/window/GuiWindow.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/window/INativeWindow.h" afterPath="$PROJECT_DIR$/source/gui/window/INativeWindow.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/window/WindowEvent.h" afterPath="$PROJECT_DIR$/source/gui/window/WindowEvent.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/shader/normal_fragment_shader.glsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/shader/normal_vertex_shader.glsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/framework/ShibaOpenGL.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/framework/ShibaOpenGL.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/framework/graphic/shader/ShaderProgram.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/framework/graphic/shader/ShaderProgram.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/framework/math/math.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/framework/math/matrix.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/framework/model/Mesh.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/framework/model/Mesh.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/framework/model/Model.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/framework/model/Model.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/framework/model/loader/ModelLoader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/thirdpart/tiny_obj_loader.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/utils/FileUtil.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/utils/FileUtil.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/native/ShibaNative.h" afterPath="$PROJECT_DIR$/source/platform/ShibaNative.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/native/sfml/SFMLApplication.cpp" afterPath="$PROJECT_DIR$/source/platform/sfml/SFMLApplication.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/native/sfml/SFMLApplication.h" afterPath="$PROJECT_DIR$/source/platform/sfml/SFMLApplication.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/native/sfml/SFMLController.cpp" afterPath="$PROJECT_DIR$/source/platform/sfml/SFMLController.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/native/sfml/SFMLController.h" afterPath="$PROJECT_DIR$/source/platform/sfml/SFMLController.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/native/sfml/service/SfmlEventService.cpp" afterPath="$PROJECT_DIR$/source/platform/sfml/service/SfmlEventService.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/native/sfml/service/SfmlEventService.h" afterPath="$PROJECT_DIR$/source/platform/sfml/service/SfmlEventService.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/native/sfml/service/SfmlLogService.cpp" afterPath="$PROJECT_DIR$/source/platform/sfml/service/SfmlLogService.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/native/sfml/service/SfmlLogService.h" afterPath="$PROJECT_DIR$/source/platform/sfml/service/SfmlLogService.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/Application.h" afterPath="$PROJECT_DIR$/source/Application.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/SFMLMain.cpp" afterPath="$PROJECT_DIR$/source/SFMLMain.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/SFMLMain.h" afterPath="$PROJECT_DIR$/source/SFMLMain.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/common/ShibaTypes.h" afterPath="$PROJECT_DIR$/source/common/ShibaTypes.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/framework/GLWindow.cpp" afterPath="$PROJECT_DIR$/source/framework/GLWindow.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/framework/GLWindow.h" afterPath="$PROJECT_DIR$/source/framework/GLWindow.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/launcher.cpp" afterPath="$PROJECT_DIR$/source/launcher.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/native/ShibaNative.h" afterPath="$PROJECT_DIR$/source/native/ShibaNative.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/native/sfml/SFMLController.cpp" afterPath="$PROJECT_DIR$/source/native/sfml/SFMLController.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/native/sfml/SFMLController.h" afterPath="$PROJECT_DIR$/source/native/sfml/SFMLController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/gui/window/GuiWindow.h" afterPath="$PROJECT_DIR$/source/gui/window/GuiWindow.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/main.cpp" afterPath="$PROJECT_DIR$/source/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,36 +56,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SFMLController.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/native/sfml/SFMLController.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="673">
-              <caret line="82" column="32" lean-forward="true" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
-              <folding>
-                <element signature="e#45#71#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Window.hpp" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/include/SFML/Window/Window.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="462" column="9" lean-forward="false" selection-start-line="462" selection-start-column="9" selection-end-line="462" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GLWindow.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/framework/GLWindow.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+            <state relative-caret-position="550">
+              <caret line="169" column="38" lean-forward="true" selection-start-line="169" selection-start-column="38" selection-end-line="169" selection-end-column="38" />
               <folding>
                 <element signature="e#45#66#0" expanded="true" />
               </folding>
@@ -75,80 +70,94 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="glew.h" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/include/GL/glew.h">
+      <file leaf-file-name="math.h" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/math.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
-              <caret line="859" column="22" lean-forward="false" selection-start-line="859" selection-start-column="22" selection-end-line="859" selection-end-column="22" />
+              <caret line="702" column="8" lean-forward="false" selection-start-line="702" selection-start-column="8" selection-end-line="702" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShibaNative.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/native/ShibaNative.h">
+      <file leaf-file-name="type_mat4x4.inl" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/include/glm/detail/type_mat4x4.inl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="53" column="27" lean-forward="true" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+            <state relative-caret-position="150">
+              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
               <folding>
-                <element signature="e#105#122#0" expanded="true" />
+                <element signature="e#201#226#0" expanded="true" />
+                <element signature="e#543#758#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thread" pinned="false" current-in-tab="false">
-        <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/thread">
+      <file leaf-file-name="matrix.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/framework/math/matrix.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="363" column="17" lean-forward="false" selection-start-line="363" selection-start-column="17" selection-end-line="363" selection-end-column="17" />
-              <folding>
-                <element signature="e#9578#9632#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="195">
+              <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="launcher.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/launcher.cpp">
+      <file leaf-file-name="math.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/framework/math/math.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModelLoader.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/framework/model/loader/ModelLoader.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="normal_fragment_shader.glsl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resource/shader/normal_fragment_shader.glsl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GLWindow.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/framework/GLWindow.h">
+      <file leaf-file-name="box.obj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resource/box.obj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-              <folding>
-                <element signature="e#96#132#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuiWindow.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/gui/window/GuiWindow.h">
+      <file leaf-file-name="normal_vertex_shader.glsl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resource/shader/normal_vertex_shader.glsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-              <folding>
-                <element signature="e#102#128#0" expanded="true" />
-                <marker date="1503173450000" expanded="true" signature="102:166" ph="..." />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuiWindow.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/gui/window/GuiWindow.cpp">
+      <file leaf-file-name="ShaderProgram.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/framework/graphic/shader/ShaderProgram.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+            <state relative-caret-position="547">
+              <caret line="89" column="42" lean-forward="false" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -171,7 +180,27 @@
       <find>GLGra</find>
       <find>source</find>
       <find>GLWindowRenderer</find>
+      <find>native</find>
+      <find>LoadObj(</find>
+      <find>r</find>
+      <find>read</find>
+      <find>readFi</find>
+      <find>readFil</find>
+      <find>shiba::Interface</find>
+      <find>readF</find>
+      <find>readFile</find>
+      <find>verte</find>
+      <find>worldPosition</find>
+      <find>lpg</find>
+      <find>indexBufferId</find>
+      <find>2503</find>
+      <find>GLM_FORCE_NO_CTOR_INIT</find>
+      <find>projectionMatrix</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>platform</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -179,23 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/graphics/gl/GLGraphicsRenderer.h" />
-        <option value="$PROJECT_DIR$/graphics/gl/GLGraphicsRenderer.cpp" />
-        <option value="$PROJECT_DIR$/SFMLMain.cpp" />
-        <option value="$PROJECT_DIR$/SFMLMain.h" />
-        <option value="$PROJECT_DIR$/utils/Interface.h" />
-        <option value="$PROJECT_DIR$/native/sfml/SFMLApplication.cpp" />
-        <option value="$PROJECT_DIR$/utils/List.cpp" />
-        <option value="$PROJECT_DIR$/native/sfml/SFMLApplication.h" />
-        <option value="$PROJECT_DIR$/Application.h" />
-        <option value="$PROJECT_DIR$/window/sfml/SFMLWindow.cpp" />
-        <option value="$PROJECT_DIR$/native/sfml/SFMLController.h" />
-        <option value="$PROJECT_DIR$/window/INativeWindow.h" />
-        <option value="$PROJECT_DIR$/native/ShibaNative.h" />
-        <option value="$PROJECT_DIR$/native/sfml/service/SfmlEventService.cpp" />
-        <option value="$PROJECT_DIR$/native/sfml/service/SfmlEventService.h" />
-        <option value="$PROJECT_DIR$/utils/List.h" />
         <option value="$PROJECT_DIR$/window/GuiWindow.cpp" />
         <option value="$PROJECT_DIR$/Application.cpp" />
         <option value="$PROJECT_DIR$/framework/GameWindow.h" />
@@ -208,16 +220,44 @@
         <option value="$APPLICATION_CONFIG_DIR$/clion.vmoptions" />
         <option value="$PROJECT_DIR$/source/common/ShibaLog.h" />
         <option value="$PROJECT_DIR$/source/launcher.cpp" />
-        <option value="$PROJECT_DIR$/source/Application.h" />
         <option value="$PROJECT_DIR$/source/native/sfml/SFMLController.h" />
         <option value="$PROJECT_DIR$/source/common/Log.h" />
         <option value="$PROJECT_DIR$/source/native/sfml/service/SfmlLogService.h" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/source/framework/GLWindow.h" />
-        <option value="$PROJECT_DIR$/source/gui/window/GuiWindow.h" />
         <option value="$PROJECT_DIR$/source/gui/window/GuiWindow.cpp" />
         <option value="$PROJECT_DIR$/source/native/ShibaNative.h" />
         <option value="$PROJECT_DIR$/source/native/sfml/SFMLController.cpp" />
+        <option value="$PROJECT_DIR$/data/bunny.obj" />
+        <option value="$PROJECT_DIR$/source/framework/loader/ModelLoader.h" />
+        <option value="$PROJECT_DIR$/source/framework/entity/Model.h" />
+        <option value="$PROJECT_DIR$/source/framework/entity/Model.cpp" />
+        <option value="$PROJECT_DIR$/source/framework/model/Model.h" />
+        <option value="$PROJECT_DIR$/source/framework/model/Model.cpp" />
+        <option value="$PROJECT_DIR$/data/shader/normal_vertext_shader.glsh" />
+        <option value="$PROJECT_DIR$/source/common/ShibaTypes.h" />
+        <option value="$PROJECT_DIR$/source/framework/model/Mesh.h" />
+        <option value="$PROJECT_DIR$/source/framework/math/math.h" />
+        <option value="$PROJECT_DIR$/data/shader/noral_fragment_shader.glsl" />
+        <option value="$PROJECT_DIR$/data/shader/normal_vertext_shader.glsl" />
+        <option value="$PROJECT_DIR$/data/squre.obj" />
+        <option value="$PROJECT_DIR$/data/shader/normal_vertex_shader.glsl" />
+        <option value="$PROJECT_DIR$/data/shader/normal_fragment_shader.glsl" />
+        <option value="$PROJECT_DIR$/source/Application.h" />
+        <option value="$PROJECT_DIR$/source/gui/window/GuiWindow.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/source/platform/ShibaNative.h" />
+        <option value="$PROJECT_DIR$/source/platform/sfml/SFMLController.cpp" />
+        <option value="$PROJECT_DIR$/source/framework/graphic/shader/ShaderProgram.h" />
+        <option value="$PROJECT_DIR$/source/framework/ShibaOpenGL.cpp" />
+        <option value="$PROJECT_DIR$/source/utils/FileUtil.h" />
+        <option value="$PROJECT_DIR$/source/utils/FileUtil.cpp" />
+        <option value="$PROJECT_DIR$/source/framework/ShibaOpenGL.h" />
+        <option value="$PROJECT_DIR$/source/framework/graphic/shader/ShaderProgram.cpp" />
+        <option value="$PROJECT_DIR$/resource/shader/normal_fragment_shader.glsl" />
+        <option value="$PROJECT_DIR$/resource/squre.obj" />
+        <option value="$PROJECT_DIR$/source/framework/model/loader/ModelLoader.h" />
+        <option value="$PROJECT_DIR$/resource/shader/normal_vertex_shader.glsl" />
+        <option value="$PROJECT_DIR$/source/framework/math/matrix.h" />
         <option value="$PROJECT_DIR$/source/framework/GLWindow.cpp" />
       </list>
     </option>
@@ -229,7 +269,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
@@ -251,164 +291,118 @@
     <panes>
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shiba" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Header Search Paths" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shiba" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shiba" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shiba" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shiba" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shiba" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shiba" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shiba" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shiba" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="native" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shiba" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shiba" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="native" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sfml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shiba" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shiba" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="native" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sfml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shiba" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shiba" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shiba" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shiba" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="Shiba" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="Shiba" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiba" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="Shiba" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiba" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="Shiba" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="shader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiba" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="Shiba" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiba" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="Shiba" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiba" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="Shiba" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiba" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="Shiba" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="graphic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiba" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="Shiba" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="graphic" type="462c0819:PsiDirectoryNode" />
+              <item name="shader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiba" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="Shiba" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiba" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="Shiba" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="loader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiba" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="Shiba" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiba" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="Shiba" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="graphics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiba" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="Shiba" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="graphics" type="462c0819:PsiDirectoryNode" />
+              <item name="gl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiba" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="Shiba" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="window" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiba" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="Shiba" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiba" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="Shiba" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="sfml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiba" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="Shiba" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
     </panes>
@@ -416,11 +410,15 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="SwiftSettings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/data/bunny.obj" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/thirdpart" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/framework/model" />
       <recent name="$PROJECT_DIR$/source/gui" />
       <recent name="$PROJECT_DIR$/source" />
     </key>
@@ -438,17 +436,23 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Shiba">
-    <configuration default="true" type="#com.sylvanaar.idea.Lua.run.LuaConfigurationType" factoryName="Lua Script">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="ALTERNATE_INTERPRETER" value="false" />
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <method />
+    </configuration>
+    <configuration name="Shiba" type="CMakeRunConfiguration" factoryName="Application" singleton="true" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shiba" TARGET_NAME="Shiba" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Shiba" RUN_TARGET_NAME="Shiba">
+      <envs />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
     </configuration>
     <configuration default="true" type="CLion_Remote" factoryName="GDB Remote Debug" remoteCommand="" symbolFile="" sysroot="">
       <method />
@@ -545,18 +549,16 @@
       <JdkChoice value="FROM_MODULE" />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
-      <node-interpreter value="project" />
+    <configuration default="true" type="#com.sylvanaar.idea.Lua.run.LuaConfigurationType" factoryName="Lua Script">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="ALTERNATE_INTERPRETER" value="false" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -632,14 +634,6 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Shiba" type="CMakeRunConfiguration" factoryName="Application" singleton="true" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Shiba" TARGET_NAME="Shiba" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Shiba" RUN_TARGET_NAME="Shiba">
-      <envs />
-      <method />
-    </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.Shiba" />
@@ -660,28 +654,46 @@
       <updated>1503074788829</updated>
       <workItem from="1503074791412" duration="12843000" />
       <workItem from="1503163147592" duration="2182000" />
-      <workItem from="1503165426985" duration="7487000" />
+      <workItem from="1503165426985" duration="14635000" />
+      <workItem from="1503223058801" duration="455000" />
+      <workItem from="1503576344871" duration="11826000" />
+      <workItem from="1503643229975" duration="11000" />
+      <workItem from="1503814622746" duration="740000" />
+      <workItem from="1503836232980" duration="207000" />
+      <workItem from="1503836450566" duration="2646000" />
+      <workItem from="1503857785792" duration="5191000" />
+      <workItem from="1504284616728" duration="7310000" />
+      <workItem from="1504293036937" duration="1446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22512000" />
+    <option name="totallyTimeSpent" value="59492000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25714287" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34489796" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25579977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.33699635" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25588536" sideWeight="0.64285713" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25588536" sideWeight="0.35714287" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34390992" sideWeight="0.495116" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23870574" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25076765" sideWeight="0.45604396" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -689,392 +701,420 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.495116" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/source/framework/GLWindow.cpp</url>
+          <line>134</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/source/framework/GLWindow.cpp</url>
+          <line>108</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="19" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Shiba.dir/build.make">
+    <entry file="file:///usr/local/include/glm/detail/func_matrix.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1120">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="465">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/common/ShibaTypes.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/gui/graphics/gl/GLGraphicsRenderer.cpp">
+    <entry file="file:///usr/local/include/glm/matrix.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/gui/graphics/gl/GLGraphicsRenderer.h">
+    <entry file="file:///usr/local/include/glm/detail/type_vec2.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="31" />
+        <state relative-caret-position="81">
+          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/utils/Interface.h">
+    <entry file="file:///usr/local/include/glm/detail/type_vec.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="318">
+          <caret line="453" column="19" lean-forward="false" selection-start-line="453" selection-start-column="19" selection-end-line="453" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/List.cpp" />
-    <entry file="file://$PROJECT_DIR$/source/native/sfml/SFMLApplication.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/include/SFML/Window/Event.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="186" column="9" lean-forward="false" selection-start-line="186" selection-start-column="9" selection-end-line="186" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/native/sfml/SFMLApplication.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/utils/List.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/launcher.h">
+    <entry file="file://$PROJECT_DIR$/source/framework/model/Mesh.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/window/sfml/SFMLWindow.h" />
-    <entry file="file://$PROJECT_DIR$/window/sfml/SFMLWindow.cpp" />
-    <entry file="file://$PROJECT_DIR$/source/SFMLMain.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/SFMLMain.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/Application.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake_modules/FindSFML.cmake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/gui/window/WindowEvent.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/gui/window/INativeWindow.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/framework/Test.cpp" />
-    <entry file="file://$PROJECT_DIR$/source/framework/Test.h" />
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1342">
-          <caret line="359" column="47" lean-forward="false" selection-start-line="359" selection-start-column="47" selection-end-line="359" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1768">
-          <caret line="204" column="32" lean-forward="true" selection-start-line="204" selection-start-column="32" selection-end-line="204" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Shiba.cbp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="121" column="36" lean-forward="false" selection-start-line="121" selection-start-column="36" selection-end-line="121" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="186" column="21" lean-forward="false" selection-start-line="186" selection-start-column="21" selection-end-line="186" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/clion.vmoptions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/Application.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding>
-            <marker date="1503166069000" expanded="true" signature="113:229" ph="..." />
-            <marker date="1503166069000" expanded="true" signature="276:1082" ph="{...}" />
-            <marker date="1503166069000" expanded="true" signature="372:915" ph="{...}" />
-            <marker date="1503166069000" expanded="true" signature="467:554" ph="{...}" />
-            <marker date="1503166069000" expanded="true" signature="598:634" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/include/SFML/System/Time.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="267" column="30" lean-forward="false" selection-start-line="267" selection-start-column="30" selection-end-line="267" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/ostream">
+    <entry file="file:///usr/local/include/glm/detail/type_vec1.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="479" column="40" lean-forward="false" selection-start-line="479" selection-start-column="40" selection-end-line="479" selection-end-column="40" />
-          <folding />
+          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/native/sfml/SFMLController.h">
+    <entry file="file:///usr/local/include/glm/detail/type_mat4x4.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="77" lean-forward="false" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
-          <folding>
-            <element signature="e#117#160#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/native/sfml/service/SfmlEventService.h">
+    <entry file="file:///usr/local/include/glm/gtc/matrix_transform.inl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="363">
+          <caret line="250" column="12" lean-forward="true" selection-start-line="250" selection-start-column="12" selection-end-line="250" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/native/sfml/service/SfmlEventService.cpp">
+    <entry file="file:///System/Library/Frameworks/OpenGL.framework/Headers/gl.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="309">
+          <caret line="2912" column="33" lean-forward="false" selection-start-line="2912" selection-start-column="12" selection-end-line="2912" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/common/Log.h">
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iosfwd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="2895">
+          <caret line="193" column="64" lean-forward="false" selection-start-line="193" selection-start-column="64" selection-end-line="193" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/string">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="4114" column="24" lean-forward="false" selection-start-line="4114" selection-start-column="24" selection-end-line="4114" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="23100">
+          <caret line="1540" column="8" lean-forward="false" selection-start-line="1540" selection-start-column="8" selection-end-line="1540" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/native/sfml/service/SfmlLogService.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/tuple">
+    <entry file="file://$PROJECT_DIR$/source/utils/FileUtil.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="179" column="8" lean-forward="false" selection-start-line="179" selection-start-column="8" selection-end-line="179" selection-end-column="8" />
-          <folding />
+          <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/native/sfml/service/SfmlLogService.cpp">
+    <entry file="file://$PROJECT_DIR$/source/utils/FileUtil.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/launcher.cpp">
+    <entry file="file://$PROJECT_DIR$/source/common/ShibaTypes.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="675">
+          <caret line="45" column="5" lean-forward="false" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/thread">
+    <entry file="file://$PROJECT_DIR$/source/framework/model/Mesh.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="363" column="17" lean-forward="false" selection-start-line="363" selection-start-column="17" selection-end-line="363" selection-end-column="17" />
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="e#9578#9632#0" expanded="true" />
+            <element signature="e#88#105#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/gui/window/GuiWindow.h">
+    <entry file="file://$PROJECT_DIR$/source/framework/model/Model.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-          <folding>
-            <element signature="e#102#128#0" expanded="true" />
-            <marker date="1503173450000" expanded="true" signature="102:166" ph="..." />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/native/ShibaNative.h">
+    <entry file="file://$PROJECT_DIR$/source/framework/model/Model.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="53" column="27" lean-forward="true" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
-          <folding>
-            <element signature="e#105#122#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/gui/window/GuiWindow.cpp">
+    <entry file="file://$PROJECT_DIR$/source/Application.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        <state relative-caret-position="210">
+          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Application.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/framework/graphic/shader/ShaderProgram.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/local/include/SFML/Window/Window.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="462" column="9" lean-forward="false" selection-start-line="462" selection-start-column="9" selection-end-line="462" selection-end-column="9" />
+        <state relative-caret-position="234">
+          <caret line="423" column="9" lean-forward="false" selection-start-line="423" selection-start-column="9" selection-end-line="423" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/platform/sfml/SFMLController.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="75" column="35" lean-forward="false" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/platform/ShibaNative.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="53" column="25" lean-forward="false" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/gui/window/GuiWindow.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="54" lean-forward="false" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/gui/window/GuiWindow.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/platform/sfml/SFMLApplication.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/framework/ShibaOpenGL.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/OpenGL.framework/Headers/glext.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51090">
+          <caret line="3406" column="12" lean-forward="false" selection-start-line="3406" selection-start-column="12" selection-end-line="3406" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/SFML/OpenGL.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="56" column="21" lean-forward="false" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+          <folding>
+            <element signature="e#1582#1751#0" expanded="true" />
+            <element signature="e#1823#1959#0" expanded="true" />
+            <element signature="e#2060#2325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/TargetConditionals.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1548">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/SFML/Config.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="68" column="10" lean-forward="true" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
+          <folding>
+            <element signature="e#1691#1790#0" expanded="true" />
+            <element signature="e#1980#2018#0" expanded="true" />
+            <element signature="e#2116#2219#0" expanded="true" />
+            <element signature="e#2262#2818#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/framework/ShibaOpenGL.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding>
+            <element signature="e#175#198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/glm/detail/type_mat.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="415" column="36" lean-forward="false" selection-start-line="415" selection-start-column="36" selection-end-line="415" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/vector">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="1596" column="0" lean-forward="false" selection-start-line="1596" selection-start-column="0" selection-end-line="1596" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/bunny.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="7467" column="16" lean-forward="false" selection-start-line="7467" selection-start-column="12" selection-end-line="7467" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/framework/GLWindow.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="e#96#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/include/GL/glew.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="859" column="22" lean-forward="false" selection-start-line="859" selection-start-column="22" selection-end-line="859" selection-end-column="22" />
+        <state relative-caret-position="105">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/native/sfml/SFMLController.cpp">
+    <entry file="file://$PROJECT_DIR$/source/thirdpart/tiny_obj_loader.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="82" column="32" lean-forward="true" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
+        <state relative-caret-position="21105">
+          <caret line="1407" column="5" lean-forward="false" selection-start-line="1407" selection-start-column="5" selection-end-line="1407" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/squre.obj" />
+    <entry file="file:///usr/local/include/glm/gtc/type_ptr.inl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2010">
+          <caret line="134" column="27" lean-forward="false" selection-start-line="134" selection-start-column="27" selection-end-line="134" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/glm/detail/type_mat4x4.inl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding>
-            <element signature="e#45#71#0" expanded="true" />
+            <element signature="e#201#226#0" expanded="true" />
+            <element signature="e#543#758#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/framework/model/loader/ModelLoader.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/shader/normal_fragment_shader.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/box.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/framework/graphic/shader/ShaderProgram.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="89" column="42" lean-forward="false" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/framework/math/math.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/shader/normal_vertex_shader.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/math.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="702" column="8" lean-forward="false" selection-start-line="702" selection-start-column="8" selection-end-line="702" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/framework/math/matrix.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/framework/GLWindow.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+        <state relative-caret-position="550">
+          <caret line="169" column="38" lean-forward="true" selection-start-line="169" selection-start-column="38" selection-end-line="169" selection-end-column="38" />
           <folding>
             <element signature="e#45#66#0" expanded="true" />
           </folding>

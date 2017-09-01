@@ -4,7 +4,7 @@
 
 #include "SFMLMain.h"
 
-int shiba::native::sfml::_sfml_main(int argc, char **argv) {
+int shiba::platform::sfml::_sfml_main(int argc, char **argv) {
     setupSFMLRenderer();
     return 0;
 }

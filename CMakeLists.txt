@@ -12,15 +12,24 @@ File(GLOB SOURCE_FILES
         source/common/*.cpp
         source/gui/graphics/*.cpp
         source/gui/graphics/gl/*.cpp
-        source/native/*.cpp
-        source/native/*.h
-        source/native/sfml/*.cpp
-        source/native/sfml/service/*.cpp
+        source/platform/*.cpp
+        source/platform/*.h
+        source/platform/sfml/*.cpp
+        source/platform/sfml/service/*.cpp
         source/utils/*.cpp
         source/utils/*.h
         source/gui/window/*.cpp
         source/gui/window/*.h
         source/common/*.h
+        source/framework/*.h
+        source/framework/*.cpp
+        source/framework/math/*.h
+        source/framework/graphic/shader/*.cpp
+        source/framework/model/*.cpp
+        source/framework/model/loader/*.cpp
+        source/framework/model/loader/*.h
+        source/framework/model/*.cpp
+        source/thirdpart/*.h
         )
 
 #set(SOURCE_FILES
@@ -32,7 +41,7 @@ File(GLOB SOURCE_FILES
 #        Color.h
 #        window/GuiWindow.cpp
 #        window/GuiWindow.h
-#        window/WindowEvent.h native/sfml/SFMLApplication.cpp native/sfml/SFMLApplication.h SFMLMain.cpp SFMLMain.h native/sfml/SFMLController.cpp native/sfml/SFMLController.h graphics/gl/GLGraphicsRenderer.cpp graphics/gl/GLGraphicsRenderer.h launcher.cpp launcher.h native/ShibaNative.h common/ShibaTypes.h utils/List.h utils/Interface.h native/sfml/service/SfmlEventService.cpp native/sfml/service/SfmlEventService.h framework/GLWindow.cpp framework/GLWindow.h)
+#        window/WindowEvent.h platform/sfml/SFMLApplication.cpp platform/sfml/SFMLApplication.h SFMLMain.cpp SFMLMain.h platform/sfml/SFMLController.cpp platform/sfml/SFMLController.h graphics/gl/GLGraphicsRenderer.cpp graphics/gl/GLGraphicsRenderer.h launcher.cpp launcher.h platform/ShibaNative.h common/ShibaTypes.h utils/List.h utils/Interface.h platform/sfml/service/SfmlEventService.cpp platform/sfml/service/SfmlEventService.h framework/GLWindow.cpp framework/GLWindow.h)
 
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake_modules")
 
@@ -61,4 +70,4 @@ if (THREADS_FOUND)
 endif ()
 
 
-add_executable(Shiba ${SOURCE_FILES} source/utils/List.h source/native/sfml/service/SfmlLogService.cpp source/native/sfml/service/SfmlLogService.h)
+add_executable(Shiba ${SOURCE_FILES} source/utils/FileUtil.cpp source/framework/ShibaOpenGL.cpp)

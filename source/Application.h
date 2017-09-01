@@ -6,7 +6,7 @@
 #define DCRAFT_APPLICATION_H
 
 #include "gui/window/GuiWindow.h"
-#include "native/ShibaNative.h"
+#include "platform/ShibaNative.h"
 #include "utils/List.h"
 #include "gui/window/WindowEvent.h"
 
@@ -15,7 +15,7 @@ extern void GameGUIMain();
 
 namespace shiba {
 
-    using namespace shiba::native;
+    using namespace shiba::platform;
     using namespace shiba::window;
 
     class Application {

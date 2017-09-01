@@ -11,9 +11,9 @@
 
 
 namespace shiba {
-    namespace native {
+    namespace platform {
         namespace sfml {
-            using namespace shiba::native;
+            using namespace shiba::platform;
 
             class ISFMLWindow: virtual Interface {
 

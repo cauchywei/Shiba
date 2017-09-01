@@ -8,7 +8,7 @@
 extern void GLRendererMain();
 
 namespace shiba {
-    namespace native {
+    namespace platform {
         namespace sfml {
 
 
